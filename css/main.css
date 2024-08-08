@@ -113,7 +113,8 @@ section {
   align-items: center;
   .logo {
     width: 150px;
-    position: absolute;
+    position:relative;
+
   }
 }
 .navbar-brand {
@@ -261,7 +262,7 @@ section {
 /* video */
 .video {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
-    url(../assets/video-bg.jpg);
+    url(../assets/feature-mockup.JPG);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -342,7 +343,10 @@ section {
 
 /* FAQ */
 .faq {
-  background: #f9f9f9;
+  background: #445477;
+}
+.faq h2{
+  color: #c9d1c0;
 }
 .faq .row {
   margin-top: 2rem;
@@ -416,15 +420,15 @@ section {
 /* testimonial */
 .testimonial {
   background-image: linear-gradient(
-      rgba(27, 188, 156, 0.8),
-      rgba(27, 188, 156, 0.9)
+      rgb(255, 102, 0),
+      rgba(255, 174, 0, 0.9)
     ),
     url(../assets/testimonial-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-}
+}     
 .testimonial .title h2,
 .testimonial .title {
   color: #fff;
