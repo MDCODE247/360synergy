@@ -1,519 +1,658 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- normalize css -->
-    <link rel = "stylesheet" href = "resources/normalize.css">
-    <!-- font -->
-    <link rel = "stylesheet" href = "resources/font.css">
-    <!-- font awesome cdn -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- normalize css -->
+		<link rel="stylesheet" href="resources/normalize.css" />
+		<!-- font -->
+		<link rel="stylesheet" href="resources/font.css" />
+		<!-- font awesome cdn -->
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+
      ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> -->
-     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    /><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:
-    wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- magnific popup -->
-    <link rel = "stylesheet" href = "resources/Magnific-Popup-master/dist/magnific-popup.css">
-    <!-- owl carousel -->
-    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
-    <!-- animate css -->
-    <link rel = "stylesheet" href = "resources/animate.css-main/animate.css">
-    <!-- custom (main) css -->
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    
-    <!-- header -->
-    <header class = "header" id = "intro">
-      <nav class = "navbar">
-        <div class = "container">
-          <div class = "brand-and-toggler">
-            <a href = "index.html" class = "navbar-brand">
-              <!-- Design<span>.</span>Diva -->  <img src = "assets/logo.png" alt = "" class="logo">
-            </a>
-            <button type = "button" class = "navbar-toggler" id = "navbar-toggler">
-              <i class = "fas fa-bars"></i>
-            </button>
-          </div>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:
+    wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<!-- magnific popup -->
+		<link
+			rel="stylesheet"
+			href="resources/Magnific-Popup-master/dist/magnific-popup.css" />
+		<!-- owl carousel -->
+		<link
+			rel="stylesheet"
+			href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" />
+		<link
+			rel="stylesheet"
+			href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
+		<!-- animate css -->
+		<link rel="stylesheet" href="resources/animate.css-main/animate.css" />
+		<!-- custom (main) css -->
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header class="header" id="intro">
+			<nav class="navbar">
+				<div class="container">
+					<div class="brand-and-toggler">
+						<a href="index.html" class="navbar-brand">
+							<!-- Design<span>.</span>Diva -->
+							<img src="assets/logo.png" alt="" class="logo" />
+						</a>
+						<button
+							type="button"
+							class="navbar-toggler"
+							id="navbar-toggler">
+							<i class="fas fa-bars"></i>
+						</button>
+					</div>
 
-          <div class = "navbar-collapse">
-            <ul class = "navbar-nav">
-              <li class = "nav-item">
-                <a href = "#feature" class = "nav-link">About</a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#pricing" class = "nav-link">Searvices</a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#team" class = "nav-link">clients</a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#pricing" class = "nav-link"></a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#testimonial" class = "nav-link">testimonial</a>
-              </li>
-              <li class = "nav-item">
-                <a href = "#contact" class = "nav-link">contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+					<div class="navbar-collapse">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="#feature" class="nav-link">About</a>
+							</li>
+							<li class="nav-item">
+								<a href="#pricing" class="nav-link"
+									>Searvices</a
+								>
+							</li>
+							<li class="nav-item">
+								<a href="#team" class="nav-link">clients</a>
+							</li>
+							<li class="nav-item">
+								<a href="#pricing" class="nav-link"></a>
+							</li>
+							<li class="nav-item">
+								<a href="#testimonial" class="nav-link"
+									>testimonial</a
+								>
+							</li>
+							<li class="nav-item">
+								<a href="#contact" class="nav-link">contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
-      <div class = "hero-div center container">
-        <h1>Your success is our utmost priority.</h1>
-        <p class = "animate__animated animate__fadeInUp animate__slow">we are dedicated 
-          to helping people reach their full potential</p>
+			<div class="hero-div center container">
+				<h1>Your success is our utmost priority.</h1>
+				<p class="animate__animated animate__fadeInUp animate__slow">
+					we are dedicated to helping people reach their full
+					potential
+				</p>
 
-        <div class = "hero-btns animate__animated animate__fadeInUp animate__slow">
-          <button type = "button" class = "btn-trans" onclick="document.location 
-          ='https://www.linkedin.com/company/360synergy-coaching-firm/'">learn more</button>
-          <button type = "button" class = "btn-white" onclick="document.location 
-          ='https://medium.com/me/settings/account'">Blog </button> 
-          
-        </div>
-      </div>
-    </header>
-    <!-- end of header -->
+				<div
+					class="hero-btns animate__animated animate__fadeInUp animate__slow">
+					<button
+						type="button"
+						class="btn-trans"
+						onclick="document.location 
+          ='https://www.linkedin.com/company/360synergy-coaching-firm/'">
+						learn more
+					</button>
+					<button
+						type="button"
+						class="btn-white"
+						onclick="document.location 
+          ='https://medium.com/me/settings/account'">
+						Blog
+					</button>
+				</div>
+			</div>
+		</header>
+		<!-- end of header -->
 
-    <!-- detail section -->
-    <section class = "detail">
-      <div class = "container">
-        <div class = "row">
-          <div class = "detail-item wow animate__animated animate__fadeInLeft animate__slow">
-            <span> <i class="fa-solid fa-rocket"></i></span>
-            <h2>mission</h2>
-            <div class = "line"></div>
-            <p class = "text">To empower people and organizations achieve their full potentials
-              by providing them with exceptional support services and guidance.</p>
-          </div>
-          
-          <div class = "detail-item wow animate__animated animate__fadeInUp animate__s">
-            <span><i class="fa-solid fa-lightbulb"></i></span>
-            <h2>vision</h2>
-            <div class = "line"></div>
-            <p class = "text">To be a leading provider of innovative solutions and services that enable people and organizations thrive in the ever changing business landscape. We thrive to build strong 
-              partnership with our clients while gaining rcognition for our unwavering commitment to their success.</p>
-          </div>
+		<!-- detail section -->
+		<section class="detail">
+			<div class="container">
+				<div class="row">
+					<div
+						class="detail-item wow animate__animated animate__fadeInLeft animate__slow">
+						<span> <i class="fa-solid fa-rocket"></i></span>
+						<h2>mission</h2>
+						<div class="line"></div>
+						<p class="text">
+							To empower people and organizations achieve their
+							full potentials by providing them with exceptional
+							support services and guidance.
+						</p>
+					</div>
 
-          <div class = "detail-item wow animate__animated animate__fadeInRight animate__slow">
-            <span><i class="fa-solid fa-bullseye"></i></span>
-            <h2>goals</h2>
-            <div class = "line"></div>
-            <p class = "text">To help organizations achieve their full potentials by providing exceptional 
-              support services and guidance as well as build strong partnership with our clients, developing innovative 
-              solutions and services that are tailored to meet the unique needs and challenges of each client .</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of detial section -->
-    
-    <!-- features section -->
-    <section class = "feature" id = "feature">
-      <div class = "container">
-        <div class = "row">
-          <div class = "feature-left wow animate__animated animate__fadeInUp animate__slow">
-            <img src = "assets/feature-mockup.JPG" alt = "">
-          </div>
-          <div class = "feature-right wow animate__animated animate__fadeInUp animate__slow">
-            <div class = "title">
-              <h2>About the founder</h2>
-              <span class="author">Louisa Nixon is a visionary 
-                entrepreneur and dedicated advocate for turning everyday ideas into impactful realities.
-                 With a deep passion for people and their potential, she understands that not everyone gets the chance to pursue their dreams,
-                  and she is committed to helping them bring their ideas to the limelight.
+					<div
+						class="detail-item wow animate__animated animate__fadeInUp animate__s">
+						<span><i class="fa-solid fa-lightbulb"></i></span>
+						<h2>vision</h2>
+						<div class="line"></div>
+						<p class="text">
+							To be a leading provider of innovative solutions and
+							services that enable people and organizations thrive
+							in the ever changing business landscape. We thrive
+							to build strong partnership with our clients while
+							gaining rcognition for our unwavering commitment to
+							their success.
+						</p>
+					</div>
 
-                <p><br>In 2023, Louisa founded 360synergy Coaching Firm with the mission to develop and implement strategies that ensure ideas 
-                reach their full potential. Under her leadership, the firm focuses on providing comprehensive support in areas such as 
-                social media management, grant writing, project supervision, and business development. </p>
-                </br>
-                
-                With a background in law and business management, 
-                Louisa brings a wealth of knowledge and experience to her role. Her approach is holistic, combining
-                 innovative thinking with practical execution to deliver exceptional results. To date, she has successfully
-                  collaborated with over 10 brands, helping them transform their visions into reality.
-                
-                
-               <p> <br> Beyond her professional achievements, Louisa is also 
-                an advocate for continuous learning and personal growth.
-                 She regularly engages in workshops and seminars to stay ahead of industry trends and bring the latest insights to her clients. </p> </br>
-                
-                
-                Her dedication to excellence and unwavering support has made her a trusted partner for entrepreneurs 
-                and businesses looking to scale new heights
-              </span>
-             </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of features section -->
+					<div
+						class="detail-item wow animate__animated animate__fadeInRight animate__slow">
+						<span><i class="fa-solid fa-bullseye"></i></span>
+						<h2>goals</h2>
+						<div class="line"></div>
+						<p class="text">
+							To help organizations achieve their full potentials
+							by providing exceptional support services and
+							guidance as well as build strong partnership with
+							our clients, developing innovative solutions and
+							services that are tailored to meet the unique needs
+							and challenges of each client .
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of detial section -->
 
-    <!-- sample video section -->
-    <section class = "video">
-      <div class = "container">
-        <a class = "center popup-youtube" href = "https://www.youtube.com/watch?v=zYhdKPwgjGo">
-          <i class = "fas fa-play"></i>
-        </a>
-        <h2 class = "wow animate__animated animate__fadeInUp animate__slow">see us in action</h2>
-        <p class = "wow animate__animated animate__fadeInUp animate__slow"></p>
-      </div>
-    </section>
-    <!-- end of sample video section -->
+		<!-- features section -->
+		<section class="feature" id="feature">
+			<div class="container">
+				<div class="row">
+					<div
+						class="feature-left wow animate__animated animate__fadeInUp animate__slow">
+						<img src="assets/feature-mockup.JPG" alt="" />
+					</div>
+					<div
+						class="feature-right wow animate__animated animate__fadeInUp animate__slow">
+						<div class="title">
+							<h2>About the founder</h2>
+							<span class="author"
+								>Louisa Nixon is a visionary entrepreneur and
+								dedicated advocate for turning everyday ideas
+								into impactful realities. With a deep passion
+								for people and their potential, she understands
+								that not everyone gets the chance to pursue
+								their dreams, and she is committed to helping
+								them bring their ideas to the limelight.
 
-    <!-- team section -->
-    <section class = "team" id = "team">
-      <div class = "container">
-        <div class = "title">
-          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Meet some of our clients</h2>
-          <p class = "text"></p>
-        </div>
+								<p>
+									<br />In 2023, Louisa founded 360synergy
+									Coaching Firm with the mission to develop
+									and implement strategies that ensure ideas
+									reach their full potential. Under her
+									leadership, the firm focuses on providing
+									comprehensive support in areas such as
+									social media management, grant writing,
+									project supervision, and business
+									development.
+								</p>
+								<br />
 
-        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
-          <div class = "team-item">
-            <div class = "team-img">
-              <img src = "assets/team-1.jpg" alt = "">
-              <div class = "team-icons">
-                <a href = "#" class = "center">
-                  <i class = "fab fa-facebook-f"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-twitter"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-            <div class = "team-info">
-              <h3>AlcycI</h3>
-              <span>Outreach and Youth Initiative</span>
-            </div>
-          </div>
+								With a background in law and business
+								management, Louisa brings a wealth of knowledge
+								and experience to her role. Her approach is
+								holistic, combining innovative thinking with
+								practical execution to deliver exceptional
+								results. To date, she has successfully
+								collaborated with over 10 brands, helping them
+								transform their visions into reality.
 
-          <div class = "team-item">
-            <div class = "team-img">
-              <img src = "assets/team-2.jpg" alt = "">
-              <div class = "team-icons">
-                <a href = "#" class = "center">
-                  <i class = "fab fa-facebook-f"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-twitter"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-            <div class = "team-info">
-              <h3>Book Bridge initiative</h3>
-              <span>Education and Literacy</span>
-            </div>
-          </div> 
+								<p>
+									<br />
+									Beyond her professional achievements, Louisa
+									is also an advocate for continuous learning
+									and personal growth. She regularly engages
+									in workshops and seminars to stay ahead of
+									industry trends and bring the latest
+									insights to her clients.
+								</p>
+								<br />
 
-          <div class = "team-item">
-            <div class = "team-img">
-              <img src = "assets/team-3.jpg" alt = "">
-              <div class = "team-icons">
-                <a href = "#" class = "center">
-                  <i class = "fab fa-facebook-f"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-twitter"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-            <div class = "team-info">
-              <h3>outvie360</h3>
-              <span>Idea Management</span>
-            </div>
-          </div>
+								Her dedication to excellence and unwavering
+								support has made her a trusted partner for
+								entrepreneurs and businesses looking to scale
+								new heights
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of features section -->
 
-          <div class = "team-item">
-            <div class = "team-img">
-              <img src = "assets/team-4.jpg" alt = "">
-              <div class = "team-icons">
-                <a href = "#" class = "center">
-                  <i class = "fab fa-facebook-f"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-twitter"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-            <div class = "team-info">
-              <h3>feivel justice initiative</h3>
-              <span>Legal services</span>
-            </div>
-          </div>
+		<!-- sample video section -->
+		<section class="video">
+			<div class="container">
+				<a
+					class="center popup-youtube"
+					href="https://www.youtube.com/watch?v=zYhdKPwgjGo">
+					<i class="fas fa-play"></i>
+				</a>
+				<h2
+					class="wow animate__animated animate__fadeInUp animate__slow">
+					see us in action
+				</h2>
+				<p
+					class="wow animate__animated animate__fadeInUp animate__slow"></p>
+			</div>
+		</section>
+		<!-- end of sample video section -->
 
-          <div class = "team-item">
-            <div class = "team-img">
-              <img src = "assets/team-5.jpg" alt = "">
-              <div class = "team-icons">
-                <a href = "#" class = "center">
-                  <i class = "fab fa-facebook-f"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-twitter"></i>
-                </a>
-                <a href = "#" class = "center">
-                  <i class = "fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-            <div class = "team-info">
-              <h3>heroes dream alive</h3>
-              <span>Coaching and Management</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- end of team section -->
-    
-    <!-- faq section -->
-    <section class = "faq">
-      <div class = "container">
-        <div class = "title">
-          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Have Any Questions?</h2>
-          <p class = "text"></p>
-        </div>
+		<!-- team section -->
+		<section class="team" id="team">
+			<div class="container">
+				<div class="title">
+					<h2
+						class="wow animate__animated animate__bounceIn animate__slow">
+						Meet some of our clients
+					</h2>
+					<p class="text"></p>
+				</div>
 
-        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
-          <div class = "faq-item">
-            <div class = "faq-head">
-              <h3>How does 360 synergy support idea execution?</h3>
-              <span><i class = "fas fa-plus"></i></span>
-            </div>
-            <div class = "faq-content">
-              <p class = "text">we offer personalized coaching, strategic planning and 
-                actionable steps to turn your vision into reality, including project management as well as growth strategy</p>
-              <p class = "text">We also provide professional and lagal guidance during and after project execution pipeline</p>
-            </div>
-          </div>
+				<div
+					class="row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+					<div class="team-item">
+						<div class="team-img">
+							<img src="assets/team-1.jpg" alt="" />
+							<div class="team-icons">
+								<a href="#" class="center">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>AlcycI</h3>
+							<span>Outreach and Youth Initiative</span>
+						</div>
+					</div>
 
-          <div class = "faq-item">
-            <div class = "faq-head">
-              <h3>Who needs our services?</h3>
-              <span><i class = "fas fa-plus"></i></span>
-            </div>
-            <div class = "faq-content">
-              <p class = "text">We work with a diverse range of clients,
-                 including entrepreneurs, startups, small buisiness and established organizations.</p>
-              <p class = "text">Whether you are just starting with an idea or looking to scale an existing project, our team 
-                is equipped to provide the expertise and support you need to succeed.  </p>
-            </div>
-          </div>
+					<div class="team-item">
+						<div class="team-img">
+							<img src="assets/team-2.jpg" alt="" />
+							<div class="team-icons">
+								<a href="#" class="center">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>Book Bridge initiative</h3>
+							<span>Education and Literacy</span>
+						</div>
+					</div>
 
-          <div class = "faq-item">
-            <div class = "faq-head">
-              <h3>Is there fee for consultation?</h3>
-              <span><i class = "fas fa-plus"></i></span>
-            </div>
-            <div class = "faq-content">
-              <p class = "text">Your first consultation is FREE. this session helps us understand your idea and explore how we can bring your idea to life.</p>
-              <p class = "text">Contact us to book a session today!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- end of faq section -->
+					<div class="team-item">
+						<div class="team-img">
+							<img src="assets/team-3.jpg" alt="" />
+							<div class="team-icons">
+								<a href="#" class="center">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>outvie360</h3>
+							<span>Idea Management</span>
+						</div>
+					</div>
 
-    <!-- pricing section -->
-    <section class = "pricing" id = "pricing">
-      <div class = "container">
-        <div class = "title">
-          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Our services</h2>
-          <p class = "text">Take a look at some of our services</p>
-        </div>
+					<div class="team-item">
+						<div class="team-img">
+							<img src="assets/team-4.jpg" alt="" />
+							<div class="team-icons">
+								<a href="#" class="center">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>feivel justice initiative</h3>
+							<span>Legal services</span>
+						</div>
+					</div>
 
-        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
-          <div class = "pricing-item">
-            <h2>professioinal services</h2>
-            <ul>
-              <li>Consulting</li>
-              <li>Legal services</li>
-              <li>Financial services</li>
-              <li>Technology solutions</li>
-              <li>Business development </li>
+					<div class="team-item">
+						<div class="team-img">
+							<img src="assets/team-5.jpg" alt="" />
+							<div class="team-icons">
+								<a href="#" class="center">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="center">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>heroes dream alive</h3>
+							<span>Coaching and Management</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-            </ul>
-          </div>
+		<!-- end of team section -->
 
-          <div class = "pricing-item">
-            <h2>coaching and mentoring </h2>
-           
-            <ul>
-              <li>Monitoring and evaluation</li>
-              <li>Guidance and advise</li>
-              <li>Career talks and transition </li>
-              <li>Personal development</li>
-              <li>Longiterm support</li>
-            </ul>
-          </div>
+		<!-- faq section -->
+		<section class="faq">
+			<div class="container">
+				<div class="title">
+					<h2
+						class="wow animate__animated animate__bounceIn animate__slow">
+						Have Any Questions?
+					</h2>
+					<p class="text"></p>
+				</div>
 
-          <div class = "pricing-item">
-            <h2>managment</h2>
-            <ul>
-              <li>Human resource management</li>
-              <li>Idea management</li>
-              <li>Organizational and structural rebranding </li>
-              <li>Project management </li>
-              <li>Acquisition </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of pricing section -->
+				<div
+					class="row wow animate__animated animate__fadeInUp animate__slow">
+					<div class="faq-item">
+						<div class="faq-head">
+							<h3>
+								How does 360 synergy support idea execution?
+							</h3>
+							<span><i class="fas fa-plus"></i></span>
+						</div>
+						<div class="faq-content">
+							<p class="text">
+								we offer personalized coaching, strategic
+								planning and actionable steps to turn your
+								vision into reality, including project
+								management as well as growth strategy
+							</p>
+							<p class="text">
+								We also provide professional and lagal guidance
+								during and after project execution pipeline
+							</p>
+						</div>
+					</div>
 
-    <!-- testimonial section -->
-    <section class = "testimonial" id = "testimonial">
-      <div class = "container">
-        <div class = "title">
-          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Testimonial Spotlight</h2>
-          <p class = "text">What our clients say </p>
-        </div>
+					<div class="faq-item">
+						<div class="faq-head">
+							<h3>Who needs our services?</h3>
+							<span><i class="fas fa-plus"></i></span>
+						</div>
+						<div class="faq-content">
+							<p class="text">
+								We work with a diverse range of clients,
+								including entrepreneurs, startups, small
+								buisiness and established organizations.
+							</p>
+							<p class="text">
+								Whether you are just starting with an idea or
+								looking to scale an existing project, our team
+								is equipped to provide the expertise and support
+								you need to succeed.
+							</p>
+						</div>
+					</div>
 
-        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
-          <div class = "testimonial-item">
-            <div class = "testimonial-img">
-              <img src = "assets/team-3.jpg" alt = "">
-            </div>
-            <p> "Working with 360 synergy was energetic! I got 
-              the boost i actually needed to push
-               through into implementation. The guidance was invaluable, helping me gain the confidence to take decisive actions"</p>
-            <span>Mr. Kizito Ebhohimen</span>
-          </div>
+					<div class="faq-item">
+						<div class="faq-head">
+							<h3>Is there fee for consultation?</h3>
+							<span><i class="fas fa-plus"></i></span>
+						</div>
+						<div class="faq-content">
+							<p class="text">
+								Your first consultation is FREE. this session
+								helps us understand your idea and explore how we
+								can bring your idea to life.
+							</p>
+							<p class="text">
+								Contact us to book a session today!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-          <div class = "testimonial-item">
-            <div class = "testimonial-img">
-              <img src = "assets/team-5.jpg" alt = "">
-            </div>
-            <p>"Working with 360 synergy has been a game-changer for us. 
-              Their strategic approach and dedicated support helped us transform our idea into a successful venture. While we worked together, we learned to be courageous and show up everyday. It's been a  struggle for me to consistently follow through projects but 360 synergy made it possible "</p>
-            <span>Ms. Lola Emmanuel</span>
-          </div>
+		<!-- end of faq section -->
 
-          <div class = "testimonial-item">
-            <div class = "testimonial-img">
-              <img src = "assets/team-2.jpg" alt = "">
-            </div>
-            <p>with the help and support of 360 synergy, we have been able to reach execute and
-               carry pot projects we though was chanllenging. Through their mentorship and
-                guide, we've been able to achieve our aim of improving litracy and access to education 
+		<!-- pricing section -->
+		<section class="pricing" id="pricing">
+			<div class="container">
+				<div class="title">
+					<h2
+						class="wow animate__animated animate__bounceIn animate__slow">
+						Our services
+					</h2>
+					<p class="text">Take a look at some of our services</p>
+				</div>
 
-            </p>
-            <span>BookBridge</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of testimonial section -->
+				<div
+					class="row wow animate__animated animate__fadeInUp animate__slow">
+					<div class="pricing-item">
+						<h2>professioinal services</h2>
+						<ul>
+							<li>Consulting</li>
+							<li>Legal services</li>
+							<li>Financial services</li>
+							<li>Technology solutions</li>
+							<li>Business development</li>
+						</ul>
+					</div>
 
-    <!-- contact section -->
-    <section class = "contact" id = "contact">
-      <div class = "container">
-        <div class = "title">
-          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Contact Us</h2>
-        </div>
+					<div class="pricing-item">
+						<h2>coaching and mentoring</h2>
 
-        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
-          <div class = "contact-left">
-            <h2>Send Message Here</h2>
-            <form>
-              <input type = "text" class = "form-control" placeholder="Name">
-              <input type = "email" class = "form-control" placeholder="Email">
-              <textarea placeholder="Message" rows = "6"></textarea>
-              <button type = "submit" class = "submit-btn">submit</button>
-            </form>
-          </div>
+						<ul>
+							<li>Monitoring and evaluation</li>
+							<li>Guidance and advise</li>
+							<li>Career talks and transition</li>
+							<li>Personal development</li>
+							<li>Longiterm support</li>
+						</ul>
+					</div>
 
-          <div class = "contact-right">
-            <div>
-              <h2>Visit Office</h2>
-              <p class = "text"></p>
-            </div>
-            <div>
-              <h2>Call Us</h2>
-              <p class = "text">+2348101770808</p>
-            </div>
-            <div>
-              <h2>Send Email</h2>
-              <p class = "text">the360synergy@gmail.com</p>
+					<div class="pricing-item">
+						<h2>managment</h2>
+						<ul>
+							<li>Human resource management</li>
+							<li>Idea management</li>
+							<li>Organizational and structural rebranding</li>
+							<li>Project management</li>
+							<li>Acquisition</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of pricing section -->
 
-        </div>
-      </div>
-    </section>
-    <!-- end of contact section -->
+		<!-- testimonial section -->
+		<section class="testimonial" id="testimonial">
+			<div class="container">
+				<div class="title">
+					<h2
+						class="wow animate__animated animate__bounceIn animate__slow">
+						Testimonial Spotlight
+					</h2>
+					<p class="text">What our clients say</p>
+				</div>
 
-    <!-- footer -->
-    <footer class = "footer center">
-      <div class = "container">
-        <p class = "text">Visit our Social Media Page </p>
-        <div class = "footer-links">
-          <a href = "https://www.facebook.com/connectwithsynergy?mibextid=LQQJ4d" class = "center">
-            <i class = "fab fa-facebook-f"></i>
-          </a>
-          <a href = "https://www.instagram.com/360synergycoachingfirm?igsh=aDVxdnNqczM2ZGli&utm_source=qr" class = "center">
-            <i class = "fab fa-instagram"></i>
-          </a>
-          <a href = "https://www.linkedin.com/company/360synergy-coaching-firm/" class = "center">
-            <i class = "fab fa-linkedin"></i>
-          </a>
-          <!-- <a href = "#" class = "center">
-            <i class = "fab fa-twitter"></i> -->
-          </a>
-        </div>
-      </div>
-    </footer>
-    
+				<div
+					class="row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+					<div class="testimonial-item">
+						<div class="testimonial-img">
+							<img src="assets/team-3.jpg" alt="" />
+						</div>
+						<p>
+							"Working with 360 synergy was energetic! I got the
+							boost i actually needed to push through into
+							implementation. The guidance was invaluable, helping
+							me gain the confidence to take decisive actions"
+						</p>
+						<span>Mr. Kizito Ebhohimen</span>
+					</div>
 
+					<div class="testimonial-item">
+						<div class="testimonial-img">
+							<img src="assets/team-5.jpg" alt="" />
+						</div>
+						<p>
+							"Working with 360 synergy has been a game-changer
+							for us. Their strategic approach and dedicated
+							support helped us transform our idea into a
+							successful venture. While we worked together, we
+							learned to be courageous and show up everyday. It's
+							been a struggle for me to consistently follow
+							through projects but 360 synergy made it possible "
+						</p>
+						<span>Ms. Lola Emmanuel</span>
+					</div>
 
+					<div class="testimonial-item">
+						<div class="testimonial-img">
+							<img src="assets/team-2.jpg" alt="" />
+						</div>
+						<p>
+							with the help and support of 360 synergy, we have
+							been able to reach execute and carry pot projects we
+							though was chanllenging. Through their mentorship
+							and guide, we've been able to achieve our aim of
+							improving litracy and access to education
+						</p>
+						<span>BookBridge</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of testimonial section -->
+		<!-- contact section -->
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="title">
+					<h2
+						class="wow animate__animated animate__bounceIn animate__slow">
+						Contact Us
+					</h2>
+				</div>
 
-    <!-- end of footer -->
+				<div
+					class="row wow animate__animated animate__fadeInUp animate__slow">
+					<div class="contact-left">
+						<h2>Send Message Here</h2>
 
+						<form
+							action="https://formspree.io/f/xyzgagea"
+							method="POST">
+							<input
+								type="text"
+								name="name"
+								class="form-control"
+								required
+								placeholder="Name" />
+							<input
+								type="email"
+								name="email"
+								class="form-control"
+								required
+								placeholder="Email" />
+							<textarea
+								placeholder="Message"
+								name="message"
+								required
+								rows="6"></textarea>
+							<button type="submit" class="submit-btn">
+								Submit
+							</button>
+						</form>
+					</div>
 
+					<div class="contact-right">
+						<div>
+							<h2>Visit Office</h2>
+							<p class="text"></p>
+						</div>
+						<div>
+							<h2>Call Us</h2>
+							<p class="text">+2348101770808</p>
+						</div>
+						<div>
+							<h2>Send Email</h2>
+							<p class="text">the360synergy@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<!-- footer -->
+		<footer class="footer center">
+			<div class="container">
+				<p class="text">Visit our Social Media Page</p>
+				<div class="footer-links">
+					<a
+						href="https://www.facebook.com/connectwithsynergy?mibextid=LQQJ4d"
+						class="center">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a
+						href="https://www.instagram.com/360synergycoachingfirm?igsh=aDVxdnNqczM2ZGli&utm_source=qr"
+						class="center">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a
+						href="https://www.linkedin.com/company/360synergy-coaching-firm/"
+						class="center">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
 
-
-
-    <!-- jQuery -->
-    <script src = "resources/jquery-3.5.1.js"></script>
-    <!-- magnific popup -->
-    <script src = "resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
-    <!-- owl carousel -->
-    <script src = "resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
-    <!-- wow js -->
-    <script src = "resources/WOW-master/dist/wow.js"></script>
-    <!-- custom js -->
-    <script src="js/script.js" ></script>
-  </body>
+		<!-- jQuery -->
+		<script src="resources/jquery-3.5.1.js"></script>
+		<!-- magnific popup -->
+		<script src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+		<!-- owl carousel -->
+		<script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+		<!-- wow js -->
+		<script src="resources/WOW-master/dist/wow.js"></script>
+		<!-- custom js -->
+		<script src="js/script.js"></script>
+		<!-- end of contact section -->
+	</body>
 </html>
