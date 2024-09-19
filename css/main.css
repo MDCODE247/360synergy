@@ -183,12 +183,15 @@ section {
 .hero-div h1 {
   font-size: 2.55rem;
   padding-bottom: 0.4rem;
+  color: #F83600;
 }
 
 .hero-div p {
   color: var(--white-smoke);
   font-size: 1.05rem;
   letter-spacing: 3px;
+  color: #82a6f3
+  ;
 }
 
 .hero-btns {
@@ -256,6 +259,7 @@ section {
   font-size: 1.4rem;
   opacity: 0.8;
   font-weight: 300;
+  color: #F83600;
 }
 
 .line {
@@ -265,13 +269,24 @@ section {
   height: 2.5px;
 }
 
+.text{
+  color: #093188;
+}
+
+.container{
+  color: #093188;
+}
+
 /* feature */
 .feature .title {
   text-align: left;
   font-size: medium;
+  color:#093188;
   /* font-family: */
 }
-
+.feature h2{
+  color:#F83600
+}
 .feature-left img {
   width: 70%;
   margin: 0 auto;
@@ -345,11 +360,15 @@ section {
 .team .row {
   margin-top: 2rem;
 }
-
+.title h2{
+  color: #F83600;
+}
 .team-item {
   margin: 2rem 0;
 }
-
+ .team div{
+  background-color: #ece8e8;
+ }
 .team-img {
   position: relative;
 }
@@ -454,13 +473,14 @@ section {
   text-align: center;
   padding: 3.4rem 0;
   margin: 2rem 0;
-  /* background-color:#fb5d0b */
+  color:#ff5900
 }
 
 .pricing-item h2 {
   color: var(--night-rider);
   opacity: 0.7;
   font-size: 1.5rem;
+  color: #093188;
 }
 
 .pricing-item .price {
@@ -626,6 +646,10 @@ section {
   margin: 0 0.2rem;
   border-radius: 50%;
   transition: var(--transition);
+}
+
+.visit{
+  color: #ff5900;
 }
 
 .footer-links a:hover {
